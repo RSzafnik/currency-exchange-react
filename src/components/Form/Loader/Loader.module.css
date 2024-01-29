@@ -1,0 +1,29 @@
+.Loader {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+}
+
+.Loader:after {
+    text-align: center;
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #64b06c;
+    border-color: #64b06c transparent #64b06c transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
