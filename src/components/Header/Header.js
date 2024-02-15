@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./Header.module.css";
 import Image from "./Image/Image.js";
 import Title from "./Title/Title.js";
