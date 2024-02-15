@@ -4,6 +4,7 @@ Used Tech :
 
 - HTML,
 - JS,
+- React,
 - CSS
 
 https://deluxe-tartufo-2c800c.netlify.app/
